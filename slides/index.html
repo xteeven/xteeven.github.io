@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>February 20 meeting</title>
+		<title>Slides</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/theme/black.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,181 +24,12 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<img style="position:absolute; top:80%; left:80%" src="../images/marca principal15.png">
+				<img style="position:absolute; top:80%; left:80%" src="../images/marca-negativa.png" width="15%">
 				<section>
-						<h2>Integrating Physics-based 
-							and Data-Driven Methods to 
-							Accurately Model Haptic Textures</h2>
-
-							<span>26/02/2018 Meeting</span>
-				</section>
-
-				<section>
-						<h3 class="mume-header" id="main-changes">Main changes</h3>
-						<ul>
-							<li>Not to use panthom to record textures, use instead another mechanism:
-							<ul>
-							<li>Easier linear control</li>
-							<li>Less induced vibrations</li>
-							</ul>
-							</li>
-							</ul>
-							<ul>
-							<li>Option: CD unit open/close mechanism</li>
-						</ul>
-				</section>
-
-				<section>
-						<h3 class="mume-header" id="materials-required">Materials Required</h3>
-
-						<ul>
-						<li><input type="checkbox" class="task-list-item-checkbox" checked> Accelerometers
-						<ul>
-						<li>ADXL335 <strong><small>[ABD2016]</small></strong> ±3g Analog</li>
-						<li>ADXL321 <strong><small>[MDC2013] [CUL2014]</small></strong> ±18g Analog</li>
-						<li>MMA7362 <strong><small>[DSV2018]</small></strong> ±3g Analog</li>
-						<li>LIS344ALH <strong><small>[CUL2017]</small></strong> ±6g</li>
-						</ul>
-						</li>
-						<li><input type="checkbox" class="task-list-item-checkbox"> Force Sensor { USD$5000}:
-						<ul>
-						<li>Nano17, ATI Technologies <strong><small>[ABD2016] [MDC2013] [CUL2014]</small></strong> (Smallest commercially available 6-axis transducer in the world)</li>
-						<li>Resistive</li>
-						<li>PiezoElectric</li>
-						</ul>
-						</li>
-						</ul>
-				</section>
-
-				<section>
-						<ul>
-								<li><input type="checkbox" class="task-list-item-checkbox" checked> Capture Motion.
-								<ul>
-								<li><s>Hand Free</s></li>
-								<li><s>Phantom</s></li>
-								<li>Own mechanism -Stepper [4cm measurements]</li>
-								</ul>
-								</li>
-								<li><input type="checkbox" class="task-list-item-checkbox"> Render.
-								<ul>
-								<li>Linear Resonant Actuator --&gt; Haptuator <strong><small>[DSV2018] [CUL2017] [CUL2014]</small></strong></li>
-								<li>Voice Coil. <strong><small>[MCM2014] [TAK2012]</small></strong></li>
-								<li>Piezoelectric. <strong><small>[MEY2014]</small></strong></li>
-								</ul>
-								</li>
-								</ul>
-				</section>
-
-				<section>
-						<ul>
-								<li><input type="checkbox" class="task-list-item-checkbox" checked> Device to measure tool velocity
-								<ul>
-								<li>trakStar position/orientation sensor <strong><small>[MDC2013] [CUL2014]</small></strong></li>
-								<li>Phantom Premium <strong><small>[ABD2016]</small></strong></li>
-								<li>Phantom Touch <strong><small>[STR2014]</small></strong></li>
-								<li>We could try to use the device that dennis is using.<strong><small>[DSV2018]</small></strong></li>
-								</ul>
-								</li>
-								<li><input type="checkbox" class="task-list-item-checkbox" checked> Acquisition board
-								<ul>
-								<li>NI DAQ  <strong><small>[ABD2016] [MDC2013] [CUL2014]</small></strong> 16 bit</li>
-								<li>AT-atmega32u4 <strong><small>[CUL2017]</small></strong> 10 bit</li>
-								<li>ATmega 2556 <strong><small>[DSV2018]</small></strong> 10 bit</li>
-								</ul>
-								</li>
-						</ul>
-				</section>
-				
-				<section >
-					<section>
-						<h3 class="mume-header" id="to-do">To-Do</h3>
-						
-						<ul>
-						<li><input type="checkbox" class="task-list-item-checkbox"> Design a base that holds the Mechanism.</li>
-						<li><input type="checkbox" class="task-list-item-checkbox"> Adapt Accelerometer and tool.</li>
-						<li><input type="checkbox" class="task-list-item-checkbox" checked> <s>Try to control just with a microcontroller.</s> We need a driver</li>
-						<li><input type="checkbox" class="task-list-item-checkbox"> How perpendicular force will be induced? To simulate hand force.
-						<ul>
-						<li>Spring</li>
-						<li>Actuator</li>
-						</ul>
-						</li>
-						</ul>
-					</section>
-					<section>
-						<img src="../images/tool-mediated.png " style="border:none; box-shadow:none;">
-					</section>
-				</section>
-
-				<section>
-						<h3 class="mume-header" id="general-notes">General Notes</h3>
-
-						<p>We need to simplify material list, I Recomend to develop all only in a test material. and then extend to other materials</p>
-						<p>The work of McDonald try to match a mathematical model with recorded data adjusting a bunch of parameters.</p>
-						
-				</section>
-				
-				<section>
-					<h3 class="mume-header" id="bibliography">Bibliography</h3>
-					<section>
-					<ul><li>
-					<p>[ABD2016] Abdulali, Arsen, and Seokhee Jeon. (2016).&quot;Data-driven modeling of anisotropic haptic textures: data segmentation and interpolation.&quot; International Conference on Human Haptic Sensing and Touch Enabled Computer Applications. Springer, Cham, 2016. <a href="https://doi.org/10.1007/978-3-319-42324-1">https://doi.org/10.1007/978-3-319-42324-1</a></p>
-					</li></ul>
-					</section>
-
-					<section>
-					<ul><li>
-							<p>[CUL2014] Culbertson, H., Unwin, J., &amp; Kuchenbecker, K. J. (2014). Modeling and rendering realistic textures from unconstrained tool-surface interactions. IEEE Transactions on Haptics, 7(3), 381–393. <a href="https://doi.org/10.1109/TOH.2014.2316797">https://doi.org/10.1109/TOH.2014.2316797</a></p>
-					</li></ul>
-					</section>
-
-					<section>
-					<ul><li>
-							<p>[CUL2017] Culbertson, H., &amp; Kuchenbecker, K. J. (2017). Importance of matching physical friction, hardness, and texture in creating realistic haptic virtual surfaces. IEEE Transactions on Haptics, 10(1), 63–74. <a href="https://doi.org/10.1109/TOH.2016.2598751">https://doi.org/10.1109/TOH.2016.2598751</a></p>
-					</li></ul>
-					</section>
-					
-					<section>
-					<ul><li>
-							<p>[DSV2018] Salazar, D. S, Maciel, A. (2018) Integrating Physics-based and Data-Driven Methods to Accurately Model Haptic Textures</p>
-					</li></ul>
-					</section>
-
-					<section>
-					<ul><li>
-							<p>[MCD2013] McDonald, C. G., &amp; Kuchenbecker, K. J. (2013). Dynamic simulation of tool-mediated texture interaction. 2013 World Haptics Conference, WHC 2013, 307–312. <a href="https://doi.org/10.1109/WHC.2013.6548426">https://doi.org/10.1109/WHC.2013.6548426</a></p>
-					</li></ul>
-					</section>
-
-					<section>
-					<ul><li>
-							<p>[MCM2014] W. McMahan and K. J. Kuchenbecker. (2014) “Dynamic modeling and control of voice-coil actuators for high-fidelity display of haptic vibrations,” in Proc. IEEE Haptics Symp., Feb. 2014, pp. 1115–122.</p>
-
-					</li></ul>
-					</section>
-
-					<section>
-					<ul><li>
-							<p>[MEY2014] Meyer, D. J., Wiertlewski, M., Peshkin, M. A., &amp; Colgate, J. E. (2014). Dynamics of ultrasonic and electrostatic friction modulation for rendering texture on haptic surfaces. IEEE Haptics Symposium, HAPTICS, 63–67. <a href="https://doi.org/10.1109/HAPTICS.2014.6775434">https://doi.org/10.1109/HAPTICS.2014.6775434</a></p>
-
-					</li></ul>
-					</section>
-					
-					<section>
-					<ul><li>
-							<p>[TAK2012] Y. Takeuchi, S. Kamuro, K. Minamizawa, and S. Tachi (2012). “Haptic duplicator,” in Proc. ACM Virtual Reality International Conference. New York, NY, USA: ACM, 2012.</p>
-
-					</li></ul>
-					</section>
-
-					<section>
-					<ul><li>
-							<p>[STR2014] Strese, M., Lee, J. Y., Schuwerk, C., Han, Q., Kim, H. G., &amp; Steinbach, E. (2014). A haptic texture database for tool-mediated texture recognition and classification. 2014 IEEE International Symposium on Haptic, Audio and Visual Environments and Games, HAVE 2014 - Proceedings, 118–123. <a href="https://doi.org/10.1109/HAVE.2014.6954342">https://doi.org/10.1109/HAVE.2014.6954342</a></p>
-
-					</li></ul>
-					</section>
-				</section>
-
+						<h2>Slides</h2>
+							<a href="meeting26.html">26/02/2018 Meeting</a> <br>
+							<object data="meeting26.html"></object>
+				</section>	
 			</div>
 		</div>
 
@@ -210,6 +41,7 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				transition: 'zoom',
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
