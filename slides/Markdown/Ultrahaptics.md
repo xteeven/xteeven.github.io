@@ -12,7 +12,7 @@ Error | LNK2019 | HelloHapticDevice | C:\OpenHaptics\Developer\3.4.0\examples\HD
 ```
 so I commented that lines and it worked. The error in that example comes from "hdu.lib"
 
-#### fixed:
+- #### fixed:
  I found the solution in the 3Dsystems forum. I should recompile the utilities for my version of Visual Studio. I done that in the following way:
  1. Go to the Openhaptics installation folder
  2. Search for the utilities directory "Openhaptics/Utilities/src"
@@ -20,4 +20,4 @@ so I commented that lines and it worked. The error in that example comes from "h
  4. next I copy and paste to the example folder.
  5. It works
 
-
+Calibration example shows an similar error but with calibration.obj file. #Trying to fix

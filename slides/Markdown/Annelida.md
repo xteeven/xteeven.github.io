@@ -24,3 +24,5 @@
 
 All components were listed in google sheets to be purchased.
 But yet I have to define the material to enclose all the control.
+
+-[PT] Dependendo das dimenções dos componentes é necessario fazer um corte laser
