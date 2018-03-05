@@ -72,7 +72,7 @@ Closest option, 3 axis
 
 ![](2018-03-05-03-03-39.png)
 
-https://www.robotshop.com/en/variense-digital-triaxial-force-sensor-fse103.html
+[Link](https://www.robotshop.com/en/variense-digital-triaxial-force-sensor-fse103.html)
 
 #### Interlink Electronics 0.2" Circular FSR \{6.08 USD}
 
@@ -84,7 +84,7 @@ https://www.robotshop.com/en/variense-digital-triaxial-force-sensor-fse103.html
 
 ![](2018-03-05-03-13-52.png)
 
-https://www.robotshop.com/en/interlink-electronics-circular-fsr-short-34-00004.html
+[Link](https://www.robotshop.com/en/interlink-electronics-circular-fsr-short-34-00004.html)
 
 #### 100g Micro Load Cell \{7 USD}
 
@@ -95,7 +95,7 @@ https://www.robotshop.com/en/interlink-electronics-circular-fsr-short-34-00004.h
 - Dimensions: $35mm \times12mm \times4mm$
 
 ![](2018-03-05-03-20-39.png)
-https://www.robotshop.com/en/100g-micro-load-cell.html
+[Link](https://www.robotshop.com/en/100g-micro-load-cell.html)
 
 #### Capacitive Force Sensor \{18 USD}
 
@@ -110,7 +110,9 @@ i2c Interface, Digital DAQ
 
 ![](2018-03-05-03-29-14.png)
 
-https://www.robotshop.com/en/capacitive-force-sensor-15-mm-45-n-1-lbs.html
+[Link](https://www.robotshop.com/en/capacitive-force-sensor-15-mm-45-n-1-lbs.html)
+
+--Slide5
 
 ### Proposal
 
@@ -118,20 +120,27 @@ We could try to use a resistive sensor (4mm of diameter). It can measure force f
 
  ![Force Sensor](2018-03-04-21-10-28.png)
 
+--Slide6
+
 - #### Design a Base that holds up the mechanism
 
 I Started Designin the base. I Drew a sample part ```Mountv1.stl``` to test the new 3D printer. I found difficulties when trying to print. First i found that the standar software of BCN3D does not print over usb but only over SD. So I Searched for a software to print. I downloaded Simplify3D (Propietary software that needs to be licenced) and tryed to configure all the printer parameters, I got printed the test part and it fits in the structure. It need to be refined
 
 We need to think in the weigth of the base, it must be higher than the force applied to the texture because it could lift the structure and skewing the measurements
 
+--Slide7
+
 - #### Adapt Accelerometer and Springs
 
-To adapt accelerometer we need to define how the tool will be built. I will start to design our own tool taking into account the resistive force sensor (by now). Its diameter is fo 4mm and can
+Depends On force sensor choose
 
 - #### Configure the camera
 
+Last Step
 
-Bib
+--Slide8
+
+Bibliography
 
 * [CUL2014] Culbertson, H., Unwin, J., & Kuchenbecker, K. J. (2014). Modeling and rendering realistic textures from unconstrained tool-surface interactions. IEEE Transactions on Haptics, 7(3), 381–393. https://doi.org/10.1109/TOH.2014.2316797
 

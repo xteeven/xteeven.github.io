@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/white.css">
-
+		<link rel="stylesheet" href="katex.min.css">
+      
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
@@ -35,8 +36,158 @@
 				</section>
 			<!-- Body -->
 				<section>
-						<h3 class="mume-header" id="main-changes">Tittle</h3>
-		
+						<h3 class="mume-header" id="main-changes">Last Definitions</h3>
+						<ul>
+							<li>Force Will be induced with springs</li>
+							<li>Initial measurements without force sensor</li>
+							<li>Track movement and velocity with camera (~250 fps)</li>
+							</ul>
+							<h3 class="mume-header" id="to-do">To-Do</h3>
+
+							<ul>
+							<li><input type="checkbox" class="task-list-item-checkbox"> Design A base that holds up the Mechanism. [Ongoing]</li>
+							<li><input type="checkbox" class="task-list-item-checkbox"> Adapt Accelerometer [Ongoing]</li>
+							<li><input type="checkbox" class="task-list-item-checkbox" checked> Search for a feasible force sensor</li>
+							<li><input type="checkbox" class="task-list-item-checkbox"> Buy a Driver</li>
+							</ul>
+				</section>
+
+				<section>
+					<h3 class="mume-header" id="main-requeriments">Main requeriments</h3>
+					<section>
+
+					<p><img src="Markdown/2018-03-05-00-20-16.png" style="border:none; box-shadow:none;" width="500" alt=""></p>
+				</section>
+					<section>
+					<p><img src="Markdown/2018-03-05-01-41-42.png" style="border:none; box-shadow:none;" width="500" alt=""></p>
+				</section>
+				<section>
+					<h4 class="mume-header" id="force-range">Force range</h4>
+					<p>Mean forces in texture modeling [CUL2014]:</p>
+					<p><img src="Markdown/2018-03-04-23-04-40.png" style="border:none; box-shadow:none;" alt=""></p>
+				</section>
+				</section>
+
+				<section>
+					<h3 class="mume-header" id="how-accurate-nano-17-is">How accurate nano 17 is?</h3>
+					<section>
+					<p>[GUO2016]:</p>
+					<ul>
+					<li>Sensing Range: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>±</mo><mn>8</mn><mi>N</mi></mrow><annotation encoding="application/x-tex">\pm 8 N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="base"><span class="mord">±</span><span class="mord mathrm">8</span><span class="mord mathit" style="margin-right:0.10903em;">N</span></span></span></span></li>
+					<li>Resolution: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mi mathvariant="normal">/</mi><mn>6</mn><mn>8</mn><mn>2</mn><mi>N</mi></mrow><annotation encoding="application/x-tex">1/682 N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathrm">1</span><span class="mord mathrm">/</span><span class="mord mathrm">6</span><span class="mord mathrm">8</span><span class="mord mathrm">2</span><span class="mord mathit" style="margin-right:0.10903em;">N</span></span></span></span></li>
+					<li>hysteresis: No data.</li>
+					<li>Repeatability: High</li>
+					<li>Diameter: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mn>7</mn><mi>m</mi><mi>m</mi></mrow><annotation encoding="application/x-tex">17 mm</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.64444em;"></span><span class="strut bottom" style="height:0.64444em;vertical-align:0em;"></span><span class="base"><span class="mord mathrm">1</span><span class="mord mathrm">7</span><span class="mord mathit">m</span><span class="mord mathit">m</span></span></span></span></li>
+					</ul>
+				</section>
+					<section>
+					<p><img src="Markdown/2018-03-05-00-26-34.png" style="border:none; box-shadow:none;" alt=""></p>
+				</section>
+
+				</section>
+
+				<section><h3 class="mume-header" id="options">Options</h3>
+					<ul>
+						<li>Variense Digital Triaxial Force Sensor (FSE103) {800 USD}</li>	
+						<li>Interlink Electronics 0.2&quot; Circular FSR {6.08 USD}</li>
+						<li>100g Micro Load Cell {7 USD}</li>
+						<li>Capacitive Force Sensor {18 USD}</li>
+				
+				</section>
+
+						<section>
+							<section>
+						<h4 class="mume-header" id="variense-digital-triaxial-force-sensor-fse103-800-usd">Variense Digital Triaxial Force Sensor (FSE103) {800 USD}</h4>
+						
+						<p>Closest option, 3 axis</p>
+						<ul>
+						<li>Sensing range: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mo>−</mo><mn>1</mn><mn>0</mn><mn>0</mn><mi>N</mi></mrow><annotation encoding="application/x-tex">0-100 N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="base"><span class="mord mathrm">0</span><span class="mbin">−</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathit" style="margin-right:0.10903em;">N</span></span></span></span></li>
+						<li>Resolution: No data.</li>
+						<li>Hysteresis No data.</li>
+						<li>Repeatability: High</li>
+						<li>Diameter: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3</mn><mn>9</mn><mi>m</mi><mi>m</mi></mrow><annotation encoding="application/x-tex">39 mm</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.64444em;"></span><span class="strut bottom" style="height:0.64444em;vertical-align:0em;"></span><span class="base"><span class="mord mathrm">3</span><span class="mord mathrm">9</span><span class="mord mathit">m</span><span class="mord mathit">m</span></span></span></span></li>
+						</ul></section><section>
+						<p><img width="500" src="Markdown/2018-03-05-03-03-39.png" style="border:none; box-shadow:none;" alt=""></p>
+						<p><a href="https://www.robotshop.com/en/variense-digital-triaxial-force-sensor-fse103.html">Link</a></p>
+					</section></section><section><section>
+						<h4 class="mume-header" id="interlink-electronics-02-circular-fsr-608-usd">Interlink Electronics 0.2&quot; Circular FSR {6.08 USD}</h4>
+						
+						<ul>
+						<li>Sensing range: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mi mathvariant="normal">.</mi><mn>2</mn><mo>−</mo><mn>2</mn><mn>0</mn><mi>N</mi></mrow><annotation encoding="application/x-tex">0.2-20 N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="base"><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">2</span><span class="mbin">−</span><span class="mord mathrm">2</span><span class="mord mathrm">0</span><span class="mord mathit" style="margin-right:0.10903em;">N</span></span></span></span></li>
+						<li>Resolution: Continuous.</li>
+						<li>Hysteresis: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>±</mo><mn>1</mn><mn>0</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">\pm 10\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:0.83333em;vertical-align:-0.08333em;"></span><span class="base"><span class="mord">±</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">%</span></span></span></span>.</li>
+						<li>Repeatability: High <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>±</mo><mn>2</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">\pm 2\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:0.83333em;vertical-align:-0.08333em;"></span><span class="base"><span class="mord">±</span><span class="mord mathrm">2</span><span class="mord mathrm">%</span></span></span></span></li>
+						<li>Diameter: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>5</mn><mi mathvariant="normal">.</mi><mn>6</mn><mi>m</mi><mi>m</mi></mrow><annotation encoding="application/x-tex">5.6 mm</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.64444em;"></span><span class="strut bottom" style="height:0.64444em;vertical-align:0em;"></span><span class="base"><span class="mord mathrm">5</span><span class="mord mathrm">.</span><span class="mord mathrm">6</span><span class="mord mathit">m</span><span class="mord mathit">m</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mn>3</mn><mi>m</mi><mi>m</mi></mrow><annotation encoding="application/x-tex">13 mm</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.64444em;"></span><span class="strut bottom" style="height:0.64444em;vertical-align:0em;"></span><span class="base"><span class="mord mathrm">1</span><span class="mord mathrm">3</span><span class="mord mathit">m</span><span class="mord mathit">m</span></span></span></span></li>
+						</ul></section><section>
+						<p><img width="500" src="Markdown/2018-03-05-03-13-52.png" style="border:none; box-shadow:none;" alt=""></p>
+						<p><a href="https://www.robotshop.com/en/interlink-electronics-circular-fsr-short-34-00004.html">Link</a></p>
+					</section></section><section><section>
+					<h4 class="mume-header" id="100g-micro-load-cell-7-usd">100g Micro Load Cell {7 USD}</h4>
+						
+						<ul>
+						<li>Sensing range: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mo>−</mo><mn>1</mn><mn>0</mn><mn>0</mn><mi>g</mi><mo>≈</mo><mn>4</mn><mi mathvariant="normal">.</mi><mn>8</mn><mi>N</mi></mrow><annotation encoding="application/x-tex">0-100g \approx4.8N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord mathrm">0</span><span class="mbin">−</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathit" style="margin-right:0.03588em;">g</span><span class="mrel">≈</span><span class="mord mathrm">4</span><span class="mord mathrm">.</span><span class="mord mathrm">8</span><span class="mord mathit" style="margin-right:0.10903em;">N</span></span></span></span></li>
+						<li>Resolution: Continuous.</li>
+						<li>Hysteresis: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&gt;</mo><mn>1</mn><mi mathvariant="normal">%</mi><mo>≈</mo><mn>5</mn><mn>0</mn><mi>m</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">&gt;1\% \approx 50mg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:0.94444em;vertical-align:-0.19444em;"></span><span class="base"><span class="mrel">&gt;</span><span class="mord mathrm">1</span><span class="mord mathrm">%</span><span class="mrel">≈</span><span class="mord mathrm">5</span><span class="mord mathrm">0</span><span class="mord mathit">m</span><span class="mord mathit" style="margin-right:0.03588em;">g</span></span></span></span>.</li>
+						<li>Repeatability: High <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&gt;</mo><mn>1</mn><mi mathvariant="normal">%</mi><mo>≈</mo><mn>5</mn><mn>0</mn><mi>m</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">&gt;1\% \approx 50mg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:0.94444em;vertical-align:-0.19444em;"></span><span class="base"><span class="mrel">&gt;</span><span class="mord mathrm">1</span><span class="mord mathrm">%</span><span class="mrel">≈</span><span class="mord mathrm">5</span><span class="mord mathrm">0</span><span class="mord mathit">m</span><span class="mord mathit" style="margin-right:0.03588em;">g</span></span></span></span>.</li>
+						<li>Dimensions: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3</mn><mn>5</mn><mi>m</mi><mi>m</mi><mo>×</mo><mn>1</mn><mn>2</mn><mi>m</mi><mi>m</mi><mo>×</mo><mn>4</mn><mi>m</mi><mi>m</mi></mrow><annotation encoding="application/x-tex">35mm \times12mm \times4mm</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.64444em;"></span><span class="strut bottom" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="base"><span class="mord mathrm">3</span><span class="mord mathrm">5</span><span class="mord mathit">m</span><span class="mord mathit">m</span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">2</span><span class="mord mathit">m</span><span class="mord mathit">m</span><span class="mbin">×</span><span class="mord mathrm">4</span><span class="mord mathit">m</span><span class="mord mathit">m</span></span></span></span></li>
+						</ul></section><section>
+						<p><img width="500" src="Markdown/2018-03-05-03-20-39.png" style="border:none; box-shadow:none;" alt=""><br>
+						<a href="https://www.robotshop.com/en/100g-micro-load-cell.html">Link</a></p>
+					</section></section><section><section>
+					<h4 class="mume-header" id="capacitive-force-sensor-18-usd">Capacitive Force Sensor {18 USD}</h4>
+						
+						<ul>
+						<li>Sensing range: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mo>−</mo><mn>4</mn><mi mathvariant="normal">.</mi><mn>5</mn><mi>N</mi></mrow><annotation encoding="application/x-tex">0-4.5 N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="base"><span class="mord mathrm">0</span><span class="mbin">−</span><span class="mord mathrm">4</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mord mathit" style="margin-right:0.10903em;">N</span></span></span></span></li>
+						<li>Resolution: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&lt;</mo><mn>0</mn><mi mathvariant="normal">.</mi><mn>2</mn><mi mathvariant="normal">%</mi><mi>o</mi><mi>f</mi><mi>F</mi><mi>u</mi><mi>l</mi><mi>l</mi><mi>S</mi><mi>c</mi><mi>a</mi><mi>l</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">&lt; 0.2\% of Full Scale</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:0.94444em;vertical-align:-0.19444em;"></span><span class="base"><span class="mrel">&lt;</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">2</span><span class="mord mathrm">%</span><span class="mord mathit">o</span><span class="mord mathit" style="margin-right:0.10764em;">f</span><span class="mord mathit" style="margin-right:0.13889em;">F</span><span class="mord mathit">u</span><span class="mord mathit" style="margin-right:0.01968em;">l</span><span class="mord mathit" style="margin-right:0.01968em;">l</span><span class="mord mathit" style="margin-right:0.05764em;">S</span><span class="mord mathit">c</span><span class="mord mathit">a</span><span class="mord mathit" style="margin-right:0.01968em;">l</span><span class="mord mathit">e</span></span></span></span>.</li>
+						<li>Hysteresis: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&gt;</mo><mn>4</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">&gt;4\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:0.80556em;vertical-align:-0.05556em;"></span><span class="base"><span class="mrel">&gt;</span><span class="mord mathrm">4</span><span class="mord mathrm">%</span></span></span></span>.</li>
+						<li>Repeatability: High <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&gt;</mo><mn>1</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">&gt;1\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:0.80556em;vertical-align:-0.05556em;"></span><span class="base"><span class="mrel">&gt;</span><span class="mord mathrm">1</span><span class="mord mathrm">%</span></span></span></span></li>
+						<li>Diameter: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mn>5</mn><mi>m</mi><mi>m</mi></mrow><annotation encoding="application/x-tex">15 mm</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.64444em;"></span><span class="strut bottom" style="height:0.64444em;vertical-align:0em;"></span><span class="base"><span class="mord mathrm">1</span><span class="mord mathrm">5</span><span class="mord mathit">m</span><span class="mord mathit">m</span></span></span></span></li>
+						</ul>
+						<p>i2c Interface, Digital DAQ<br>
+						<a href="https://www.robotshop.com/en/capacitive-force-sensor-electronics-daq-analog-i2c-output.html">{28USD}</a>:</p>
+					</section><section><p><img width="500"src="Markdown/2018-03-05-03-29-14.png" style="border:none; box-shadow:none;" alt=""></p>
+						<p><a href="https://www.robotshop.com/en/capacitive-force-sensor-15-mm-45-n-1-lbs.html">Link</a></p>
+					</section></section>
+				<section>
+					<section>
+						<h3 class="mume-header" id="proposal">Proposal</h3>
+
+						<p>We could try to use a resistive sensor (4mm of diameter). It can measure force from 0.1N to 10N depending on the pressure in the measuring region. it is not very accurated but can give us information to start working.</p>
+					</section><section>
+						<p><img width="500" src="Markdown/2018-03-04-21-10-28.png" style="border:none; box-shadow:none;" alt="Force Sensor"></p>
+						
+					</section>
+				</section>
+				<section>
+
+							<ul>
+								<li>
+								<h4>Design a Base that holds up the mechanism</h4>
+								</li>
+								<li><h4>Adapt Accelerometer and Springs</h4></li>
+							
+							
+								<p>Depends On force sensor choose</p>
+							
+								<li>
+								<h4>Configure the camera</h4>
+								</li>
+							
+								<p>Last Step</p>
+							</ul>
+				</section>
+				<section>
+					<h4>Bibliography</h4>
+					<section>
+					<ul><li>
+							<p>[CUL2014] Culbertson, H., Unwin, J., &amp; Kuchenbecker, K. J. (2014). Modeling and rendering realistic textures from unconstrained tool-surface interactions. IEEE Transactions on Haptics, 7(3), 381–393. <a href="https://doi.org/10.1109/TOH.2014.2316797">https://doi.org/10.1109/TOH.2014.2316797</a></p>
+					</li></ul>
+					</section>
+					<section>
+					<ul><li>
+							<p>[GUO2016] Guo, J., Li, M., Ho, P., &amp; Ren, H. (2016). Design and Performance Evaluation of a Force/Torque Sensor for Tele-Operated Catheterization Procedures. IEEE Sensors Journal, 16(9), 3208–3215. <a href="https://doi.org/10.1109/JSEN.2016.2522657">https://doi.org/10.1109/JSEN.2016.2522657</a></p>
+					</li></ul>
+					</section>
 				</section>
 
 			</div>
