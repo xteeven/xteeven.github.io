@@ -3,7 +3,14 @@
     <title>Steeven Villa - Curriculum</title>
     <link rel="stylesheet" type="text/css" href="hv2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../slides/css/print/pdf.css' : '../../slidescss/print/paper.css';
+			document.getElementsByTagName( 'body' )[0].appendChild( link );
+		</script>
+  </head>
 <body>
   <div id="drag" class="cv instaFade breakFastBurrito">
     <div class="mainDetails">
@@ -42,15 +49,15 @@
 
           <div class="sectionContent" align="justify">
             <p>Im a mechatronic engineer from Metropolitan technological Institute (ITM). 
-              I received my bachelor degrees in 2016. My undergraduate research was developed in 
+              I received my bachelor degree in 2016. My undergraduate research was developed in 
               fields such as numerical methods, finite elements, automatization, mechatronics, 
-              robotics, optics, computer vision, artificial intelligence, mechanics. In 2014, 
+              robotics, optics, computer vision and artificial intelligence. In 2014, 
               I received the research merit award from Faculty of Engineering, ITM. In 2015 I 
               was young researcher at ITM, Developing a research in multi-focus image processing.
                Currently Im researching in Haptics and Human Computer Interaction at Computer 
                Graphics Group in the Informatics institute from the UFRGS in Porto Alegre, Brazil. 
                I have interest in Haptics-Related areas such as psychophysics, neuroanatomy, 
-               tactileperception, HCI.</p>
+               tactile sperception, HCI.</p>
           </div>
         </article>
         <div class="clear"></div>
