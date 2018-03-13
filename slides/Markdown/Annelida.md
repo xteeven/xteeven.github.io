@@ -1,10 +1,17 @@
 # Notes About Annelida Control Design 
 - # Explosive Atmospheres 
-    - Equipment gorup II (Gases)  IEC / EN 60079-10-1. 
-    - Class I, Division 1 
-    - Zone 0 or 1?
-    - Category 1: (Used in zone 0, 1, 2)
-
+    - UE:
+        - Equipment gorup II (Gases)  IEC / EN 60079-10-1.  
+        - Zone 0 or 1
+- ![](2018-03-13-16-12-02.png)
+    - EEUU:
+        - Class I, Division 1 
+        - Category 1 or 2
+    - Brazil:
+        - Inmetro 
+            - Portaria Inmetro nº 179, de 18 de maio de 2010 
+            - Portaria INMETRO / MDIC número 89 de 23/02/2012 (modifica  nº 179, de 18 de maio de 2010)
+        - Ncc certificações do brasil
     - Feasible Options:
 
 | Ex code | Description          | Standar                 | Zone                  | Use         |
@@ -13,6 +20,16 @@
 | p       | Pressurised          | IEC/EN 60079-2          | 1 (px \| py) \| 2 pz  | Computers   |
 | i       | Intrinsically safe   | IEC/EN 60079-25 -11 -27 | 'ai': 0 'ib': 1 ic: 2 | Control     |
 | o       | Oil Filled           | IEC/EN 60079-6          | 2 \| 1                | switchgear  |
+
+
+   - Other Protections:
+
+| Ex code | Description      | Standar        | Zone   | Use                           |
+| ------- | ---------------- | -------------- | ------ | ----------------------------- |
+| d       | Flameproof       | IEC/EN 60079-1 | 1      | electronics, lighting, motors |
+| e       | Increased Safety | IEC/EN 60079-7 | 2 \| 1 | lighting, motors              |
+| q       | Sand Filled      | IEC/EN 60079-5 | 2 \| 1 | electronics, telephones       |
+| n       | Non Incendive    | IEC/EN 60079-6 | 2      | electronics, equipment        |
 
 - The types of protection are subdivided into several sub classes, linked to EPL (EQUIPMENT PROTECTION LEVEL): ma and mb, px, py and pz, ia, ib and ic. The a subdivisions have the most stringent safety requirements, taking into account more the one independent component faults simultaneously.
 
@@ -52,13 +69,17 @@ equipment levels of protection (EPL).
     * Reference: https://ec.europa.eu/growth/single-market/ce-marking/manufacturers_en
 ![](2018-03-07-12-42-33.png)
 
-## How the control could be implemented under that requirements
+## Our requirements
 
-- Oil Immersion
-- Intrinsecally safe
-- Pressure 
+Many modern devices will carry both ATEX and IECEx approval, and so the label will display codes and information from both schemes. Some of that information is common, some is not. A typical ATEX and IECEx label is shown below.
 
+## Highliths 
 
+1. It must be purposely-designed for use within an explosive atmosphere at normal temperatures and pressures.
+2. The atmosphere may contain gas, vapour, mist or dust as a fuel, but must be based on air as the oxidiser. 
+3. The equipment must have an ignition source in and of itself, such as a spark, hot surface, etc.
+
+Because of these criteria, simple items such as hammers are not covered as they do not generate sparks in and of themselves (only when struck against another item), and some mechanical devices such as hand-operated valves are excluded under statements issued by the EEC, as they are not considered to move fast enough to generate any frictional heat sufficient to cause ignition. 
 
 
 - # Prototype Design
