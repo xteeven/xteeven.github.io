@@ -11,7 +11,8 @@
         - Inmetro 
             - Portaria Inmetro nº 179, de 18 de maio de 2010 
             - Portaria INMETRO / MDIC número 89 de 23/02/2012 (modifica  nº 179, de 18 de maio de 2010)
-        - Ncc certificações do brasil
+        - Ncc certificações do brasil: WILSON BONATO wilson.bonato@ncc.com.br
+        - Petrobras: ROBERVAL BULGARELLI bulgarelli@petrobras.com.br
     - Feasible Options:
 
 | Ex code | Description          | Standar                 | Zone                  | Use         |
@@ -20,14 +21,13 @@
 | p       | Pressurised          | IEC/EN 60079-2          | 1 (px \| py) \| 2 pz  | Computers   |
 | i       | Intrinsically safe   | IEC/EN 60079-25 -11 -27 | 'ai': 0 'ib': 1 ic: 2 | Control     |
 | o       | Oil Filled           | IEC/EN 60079-6          | 2 \| 1                | switchgear  |
-
+| e       | Increased Safety     | IEC/EN 60079-7          | 2 \| 1                | Control     |
 
    - Other Protections:
 
 | Ex code | Description      | Standar        | Zone   | Use                           |
 | ------- | ---------------- | -------------- | ------ | ----------------------------- |
 | d       | Flameproof       | IEC/EN 60079-1 | 1      | electronics, lighting, motors |
-| e       | Increased Safety | IEC/EN 60079-7 | 2 \| 1 | lighting, motors              |
 | q       | Sand Filled      | IEC/EN 60079-5 | 2 \| 1 | electronics, telephones       |
 | n       | Non Incendive    | IEC/EN 60079-6 | 2      | electronics, equipment        |
 
