@@ -2,7 +2,7 @@
 - # Explosive Atmospheres 
     - UE:
         - Equipment gorup II (Gases)  IEC / EN 60079-10-1.  
-        - Zone 0 or 1
+        - Zone 0 or 1 
 - ![](2018-03-13-16-12-02.png)
     - EEUU:
         - Class I, Division 1 
