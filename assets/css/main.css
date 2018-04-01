@@ -1016,6 +1016,16 @@
 			font-weight: 600;
 		}
 
+		input[type="submit"].mini,
+		input[type="reset"].mini,
+		input[type="button"].mini,
+		button.mini,
+		.button.mini {
+			padding: 0 0.25rem 0 0.35rem; 
+			line-height: 1.5rem; 
+			height: 1.5rem;
+		}
+
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
