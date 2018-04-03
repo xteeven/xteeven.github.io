@@ -50,10 +50,13 @@ body {
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
+
+
 .reveal .slides section .fragment {
   opacity: 0;
   visibility: hidden;
-  transition: all .05s ease; }
+  transition: all .08s ease; }
+
   .reveal .slides section .fragment.visible {
     opacity: 1;
     visibility: inherit; }
@@ -497,7 +500,8 @@ body {
           perspective-origin: 50% 40%; }
 
 .reveal .slides > section {
-  -ms-perspective: 600px; }
+  -ms-perspective: 600px;
+perspective: 600px }
 
 .reveal .slides > section,
 .reveal .slides > section > section {
@@ -880,7 +884,8 @@ body {
   z-index: 1;
   border-radius: 4px;
   box-shadow: 0px 95px 25px rgba(0, 0, 0, 0.2);
-  -webkit-transform: translateZ(-90px) rotateX(65deg); }
+  -webkit-transform: translateZ(-90px) rotateX(65deg);
+transform:  translateZ(-90px) rotateX(65deg) }
 
 .reveal.page .slides > section.stack {
   padding: 0;
@@ -1175,7 +1180,8 @@ body {
   -webkit-perspective: 700px;
           perspective: 700px; }
   .reveal.overview .slides {
-    -moz-transform-style: preserve-3d; }
+    -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
   .reveal.overview .slides section {
     height: 100%;
     top: 0 !important;
@@ -1203,7 +1209,8 @@ body {
   .reveal.overview .backgrounds {
     -webkit-perspective: inherit;
             perspective: inherit;
-    -moz-transform-style: preserve-3d; }
+    -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
   .reveal.overview .backgrounds .slide-background {
     opacity: 1;
     visibility: visible;
@@ -1567,3 +1574,19 @@ body {
   height: auto;
  }
 
+ #left {
+  left:-8.33%;
+  text-align: center;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: center;
+  z-index:-10;
+  width:50%;
+}
