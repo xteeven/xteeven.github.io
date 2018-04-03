@@ -67,7 +67,7 @@
 			progress: true,
 
 			// Display the page number of the current slide
-			slideNumber: false,
+			slideNumber: true,
 
 			// Determine which displays to show the slide number on
 			showSlideNumber: 'all',
@@ -147,7 +147,7 @@
 			// Opens links in an iframe preview overlay
 			// Add `data-preview-link` and `data-preview-link="false"` to customise each link
 			// individually
-			previewLinks: false,
+			previewLinks: true,
 
 			// Exposes the reveal.js API through window.postMessage
 			postMessage: true,
@@ -162,7 +162,7 @@
 			transition: 'slide', // none/fade/slide/convex/concave/zoom
 
 			// Transition speed
-			transitionSpeed: 'default', // default/fast/slow
+			transitionSpeed: 'fast', // default/fast/slow
 
 			// Transition style for full page slide backgrounds
 			backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom

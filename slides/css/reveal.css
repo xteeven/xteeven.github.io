@@ -53,7 +53,7 @@ body {
 .reveal .slides section .fragment {
   opacity: 0;
   visibility: hidden;
-  transition: all .2s ease; }
+  transition: all .05s ease; }
   .reveal .slides section .fragment.visible {
     opacity: 1;
     visibility: inherit; }
@@ -241,7 +241,7 @@ body {
   z-index: 1;
   color: #000;
   pointer-events: none;
-  font-size: 10px; }
+  font-size: 8px; }
   .reveal .controls button {
     position: absolute;
     padding: 0;
@@ -423,7 +423,7 @@ body {
   display: none;
   height: 3px;
   width: 100%;
-  bottom: 0;
+  bottom: 1;
   left: 0;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.2);
@@ -514,14 +514,14 @@ body {
 
 /* Global transition speed settings */
 .reveal[data-transition-speed="fast"] .slides section {
-  transition-duration: 400ms; }
+  transition-duration: 150ms; }
 
 .reveal[data-transition-speed="slow"] .slides section {
   transition-duration: 1200ms; }
 
 /* Slide-specific transition speed overrides */
 .reveal .slides section[data-transition-speed="fast"] {
-  transition-duration: 400ms; }
+  transition-duration: 200ms; }
 
 .reveal .slides section[data-transition-speed="slow"] {
   transition-duration: 1200ms; }
@@ -1553,3 +1553,17 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+/*********************************************
+ * Logo Inf
+ *********************************************/
+
+ .reveal .logo {
+  position: fixed;
+  display: block;
+  right: 8px;
+  bottom: 8px;
+  z-index: 31;
+  width: 4em;
+  height: auto;
+ }
+
