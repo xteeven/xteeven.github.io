@@ -39,7 +39,8 @@ html,
 body {
   width: 100%;
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden; 
+  text-rendering: optimizeLegibility;}
 
 body {
   position: relative;
@@ -55,7 +56,7 @@ body {
 .reveal .slides section .fragment {
   opacity: 0;
   visibility: hidden;
-  transition: all .08s ease; }
+  transition: all .2s ease; }
 
   .reveal .slides section .fragment.visible {
     opacity: 1;
@@ -518,7 +519,7 @@ perspective: 600px }
 
 /* Global transition speed settings */
 .reveal[data-transition-speed="fast"] .slides section {
-  transition-duration: 150ms; }
+  transition-duration: 200ms; }
 
 .reveal[data-transition-speed="slow"] .slides section {
   transition-duration: 1200ms; }
@@ -1574,6 +1575,26 @@ transform:  translateZ(-90px) rotateX(65deg) }
   height: auto;
  }
 
+ .reveal.has-light-background .logo {
+
+  content:url("../../images/marca principal.png");
+ }
+
+ .reveal.has-dark-background .logo {
+
+  content:url("../../images/marca-negativa.png");
+}
+
+.reveal.has-dark-background img.logo.itm{
+  left: 8px;
+  content:url("../../images/Logo-ITMwhite.png");
+  }
+
+  .reveal.has-light-background img.logo.itm{
+    left: 8px;
+    content:url("../../images/Logo-ITM.png");
+    }
+
  #left {
   left:-8.33%;
   text-align: center;
@@ -1590,3 +1611,12 @@ transform:  translateZ(-90px) rotateX(65deg) }
   z-index:-10;
   width:50%;
 }
+.backgrounds{
+  -webkit-filter: blur(5px) brightness(40%);
+  -moz-filter: blur(50px) brightness(40%);
+  -o-filter: blur(5px) brightness(40%);
+  -ms-filter: blur(5px) brightness(40%);
+  filter: blur(5px) brightness(40%);
+
+}
+

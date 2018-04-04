@@ -5,10 +5,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>Example Slide</title>
+	<title>Presentacion ITM 12 de Abril</title>
 
 	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/black.css">
+	<link rel="stylesheet" href="css/theme/ownblack.css">
 
 	<!-- Theme used for syntax highlighting of code -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -27,40 +27,36 @@
 	<div class="reveal">
 		<div class="slides">
 			<img class="logo">
+			<img class="logo itm">
 			<!-- Initial Slide -->
 			<section>
-				<h2 style="color:darkred">Big Tittle</h2>
-				<span>Subtittle</span>
+				<h3 style="color:red">D. Steeven V. Salazar</h3>
+				<span>Historia Academica</span>
 			</section>
 			<!-- Body -->
 
-			<section>
-				<p class="fragment grow">grow</p>
-				<p style="color:red" class="fragment fade-up">fade-up (also down, <b> left </b> and right!)</p>
-
+			<section data-background-transition="zoom" data-background-image="https://interacpedia.s3.us-west-2.amazonaws.com/universities/133/Foto%20ITM%20Redes%20Sociales%20FAYH.jpg">
+				<h1>ITM</h1>
 			</section>
-
-
-			<section>
-				<div id="right">
-					<p class="fragment highlight-current-blue" data-markdown>
-					- You can place two graphs on a slide
-					- Or two columns of text
-					- These are all created with div elements
-				</p>
-				</div>
-				<div id="left">
-					<p class="fragment grow">grow</p>
-					<p class="fragment fade-up">fade-up (also down, left and right!)</p>
-	
-				</div>
+			<section data-background-transition="zoom" data-background-image="https://abrilveja.files.wordpress.com/2017/10/ufrgs.jpg">
+				<h1>UFRGS</h1>
+			</section>
+			<section data-background-transition="zoom" data-background-image="https://posgrado.uam.edu.ni/wp-content/uploads/2017/09/QuittingWeb.jpg">
+				<h1>Investigar ?</h1>
+			</section>
+			<section data-background-transition="zoom" data-background-image="http://rodinia.com.br/wp-content/uploads/2017/04/Mapas_Mapa-mundi-Globetrotter.jpeg">
+				<h1>Salir del pais ?</h1>
 			</section>
 			<section data-markdown>
-				<script  type="text/template">
-					- Item 1 <!-- .element: class="fragment" data-fragment-index="1" -->
-					- Item 2 <!-- .element: class="fragment" data-fragment-index="2"-->
-				</script>	
+				<script type="text/template">
+					## Contacto <!-- .element: style="color: red" -->
+					Www.inf.ufrgs.br/~dsvsalazar <!-- .element: class="fragment fade-up" data-fragment-index="1" -->
+					dsvsalazar@inf.ufrgs.br <!-- .element: class="fragment fade-up" data-fragment-index="2" -->
+
+				</script>
 			</section>
+
+
 		</div>
 	</div>
 
@@ -69,6 +65,7 @@
 
 	<script>
 		Reveal.initialize({
+			transition: 'fade-out',
 			dependencies: [
 				{ src: 'plugin/markdown/marked.js' },
 				{ src: 'plugin/markdown/markdown.js' },

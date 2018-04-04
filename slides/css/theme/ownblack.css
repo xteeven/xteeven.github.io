@@ -12,8 +12,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222;
+  background: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
  }
 
 .reveal {
@@ -275,3 +275,118 @@ body {
 
     content:url("../../../images/marca-negativa.png");
     }
+    .reveal img.logo.itm{
+      left: 8px;
+      content:url("../../../images/Logo-ITMwhite.png");
+      }
+
+      .horizontal.timeline {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		
+		width: 100%;
+		height: .2em;
+		background-color: lighten(#000, 95%);
+	}
+	
+	.line {
+		display: block;
+		position: absolute;
+		
+		width: 20%;
+		height: .2em;
+		background-color: #ff0000ec;
+	}
+	
+	.steps {
+		display: flex;
+		position: relative;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		
+		.step {
+			display: block;
+			position: relative;
+			bottom: calc(100% + 1em);
+			padding: .33em;
+			margin: 0 2em;
+			box-sizing: content-box;
+
+			color: #ff0000;
+			background-color: currentColor;
+			border: .25em solid white;
+			border-radius: 50%;
+			z-index: 500;
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			&:last-child {
+				margin-right: 0;
+				color: #ff0000;
+			}
+
+			span {
+				position: absolute;
+
+				top: calc(100% + 1em);
+				left: 50%;
+				transform: translateX(-50%);
+				white-space: nowrap;
+				color: #000;
+				opacity: .4;
+			}
+
+			&.current {
+				&:before {
+					content: '';
+					display: block;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+
+					padding: 1em;
+					background-color: currentColor;
+					border-radius: 50%;
+					opacity: 0;
+					z-index: -1;
+
+					animation-name: animation-timeline-current;
+					animation-duration: 2s;
+					animation-iteration-count: infinite;
+					animation-timing-function: ease-out;
+				}
+
+				span {
+					opacity: .8;
+				}
+			}
+		}	
+	}
+}
+
+@keyframes animation-timeline-current {
+	from {
+		transform: translate(-50%, -50%) scale(0);
+		opacity: 1;
+	}
+	to {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 0;
+  }
+  
+  
+}
