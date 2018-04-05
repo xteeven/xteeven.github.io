@@ -17,7 +17,7 @@
 * [x] Buy a Driver
 * [ ] Buy or get springs
 * [ ] design spring support
-* [ ] buy sandpaper
+* [x] buy sandpaper
 
 
 ### abstract
@@ -33,3 +33,6 @@ Imrpoved the reference lines to adjust to the inner and outer boundarys of the R
 ### Tool Holder
 
 I printed a box-shaped pen holder that I imagine to use with two springs. I inspired by cartesian circuit routers to do that design. I also constructed an option with Iron. Now i have two options. I need sandpaper to eliminate friction in the iron bar.
+
+### Optics plus Haptics
+We asked Raul and Diego H. about the feasebility to apply LDHM to haptics. Raul Told me that their Single Shot is 24cmX50cm. Another option is to use Transmission microscopy that is smaller and could size 10cm. The top work of sucerquia focuses on biologic measurements by transmission.
