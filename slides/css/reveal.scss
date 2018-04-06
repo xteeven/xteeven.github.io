@@ -1075,7 +1075,10 @@ $controlsArrowAngleActive: 36deg;
 	top: 0;
 	left: 0;
 	perspective: 600px;
+
+  
 }
+
 	.reveal .slide-background {
 		display: none;
 		position: absolute;
@@ -1314,11 +1317,18 @@ $controlsArrowAngleActive: 36deg;
 .reveal.overview .slides section,
 .reveal.overview-deactivating .slides section {
 	transition: none;
+	-webkit-filter: blur(5px) brightness(40%);
+	-moz-filter: blur(50px) brightness(40%);
+	-o-filter: blur(5px) brightness(40%);
+	-ms-filter: blur(5px) brightness(40%);
+	filter: blur(5px) brightness(40%);
+  
 }
 
 .reveal.overview .backgrounds .slide-background,
 .reveal.overview-deactivating .backgrounds .slide-background {
 	transition: none;
+	
 }
 
 
