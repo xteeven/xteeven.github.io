@@ -1,5 +1,5 @@
 # Notes About Annelida Control Design 
-- # Explosive Atmospheres 
+# Explosive Atmospheres 
     - UE:
         - Equipment gorup II (Gases)  IEC / EN 60079-10-1.  
         - Zone 0 or 1 
@@ -82,7 +82,7 @@ Many modern devices will carry both ATEX and IECEx approval, and so the label wi
 Because of these criteria, simple items such as hammers are not covered as they do not generate sparks in and of themselves (only when struck against another item), and some mechanical devices such as hand-operated valves are excluded under statements issued by the EEC, as they are not considered to move fast enough to generate any frictional heat sufficient to cause ignition. 
 
 
-- # Prototype Design
+# Prototype Design
 
 ## Components
 
