@@ -286,4 +286,19 @@ body {
         -moz-filter: blur(50px) brightness(40%);
         -o-filter: blur(5px) brightness(40%);
         -ms-filter: blur(5px) brightness(40%);
-        filter: blur(5px) brightness(40%); }
+        filter: blur(5px) brightness(40%); }      
+        
+        
+        .reveal[data-background-transition=slide]> .backgrounds .slide-background,
+        .reveal > .backgrounds .slide-background[data-background-transition=slide]{
+          -webkit-filter: blur(5px) brightness(40%);
+          -moz-filter: blur(50px) brightness(40%);
+          -o-filter: blur(5px) brightness(40%);
+          -ms-filter: blur(5px) brightness(40%);
+          filter: blur(5px) brightness(40%); }
+
+          #panel {
+            background-color: rgba(0, 0, 0, 0.7); 
+            color: #fff;
+            padding: 20px;
+          }
