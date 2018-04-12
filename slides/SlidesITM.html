@@ -41,7 +41,7 @@
 			<section>
 
 
-				<section id="dark" data-background-transition="zoom" data-background-image="https://interacpedia.s3.us-west-2.amazonaws.com/universities/133/Foto%20ITM%20Redes%20Sociales%20FAYH.jpg">
+				<section id="dark" data-background-transition="zoom" data-background-image="../images/itm.jpg">
 
 					<h1>ITM</h1>
 
@@ -95,7 +95,7 @@
 						# Camaras en espiral
 					</script>
 				</section>
-				<section data-background-color="#ffffff" data-background-video="Video/camaras.mp4" data-background-video-loop>
+				<section data-background-color="#ffffff" data-background-video-muted data-background-video="Video/camaras.mp4" data-background-video-loop>
 
 					<div id="panel" class="fragment fade-up" style="margin: auto;">
 						<div id="left">
@@ -172,7 +172,7 @@
 
 			<section>
 
-				<section data-background-transition="zoom" data-background-image="https://abrilveja.files.wordpress.com/2017/10/ufrgs.jpg">
+				<section data-background-transition="zoom" data-background-image="../images/ufrgs.jpg">
 					<h1>UFRGS</h1>
 					<p>Universidade Federal do Rio Grande do Sul</p>
 					<div>
@@ -186,7 +186,11 @@
 					</script>
 				</section>
 
-				<section data-background-video="Video/petrobras.mp4" data-background-video-loop>
+				<section data-background-color="#ffffff" data-background-video="Video/petrobras.mp4" data-background-video-loop>
+				
+					<p id="panel" class="fragment fade in">Interfaz tangible de control para ambientes explosivos</p>
+					<p id="panel" class="fragment fade in">Definicion de hardware para ambientes explosivos</p>
+
 				</section>
 
 				<section data-markdown>
@@ -194,33 +198,82 @@
 							# Haptica
 					</script>
 				</section>
+				<section data-background-video="Video/ultrahaptics.mp4" data-background-video-loop data-background-video-muted="">
+					<h2 class="fragment fade in" id="panel">ULTRAHAPTICS CHALLENGE, PISA-ITALIA 2018</h2>
+					<img src="../images/twoway1.jpg" style="height: 7em; width: auto;" class="fragment fade in">
+					<img src="../images/twoway2.jpg" style="height: 7em; width: auto;" class="fragment current-visible">
 
+				</section>
+				<section data-background-video="Video/tool.mp4" data-background-video-loop data-background-video-muted="">
+					<div id="panel" class="fragment fade-up" style="margin: auto;">
+						<h3>
+							INTEGRATING PHYSICS-BASED AND DATA-DRIVEN METHODS TO ACCURATELY MODEL HAPTIC TEXTURES
+						</h3>
+						<p><strong>VILLA SALAZAR</strong>; MACIEL, A</p>
+					</div>
+				</section>
 				<section data-markdown data-background-color="#ffffff">
 					<script type="text/template">
 							# VR & Animacion
 					</script>
 				</section>
+				<section data-background-video-muted="" data-background-video="http://www.inf.ufrgs.br/~vajoliveira/3DAthlon.mp4" data-background-video-loop="">
+				</section>
+				<section data-background-video-muted="" data-background-video="Video/animation.mp4" data-background-video-loop="">
+					<div id="panel" class="fragment fade-up">
+						<h2> PBA </h2>
+						<p> Physically-Based Animation </p>
+					</div>
+				</section>
+				<section data-background-color="#ffffff" data-background-video-muted="" data-background-video="Video/pbf.mp4" data-background-video-loop="">
+					<div id="panel" class="fragment fade-up">
+						<h2 style="color: white"> PBD </h2>
+						<p> Position-Based Dynamics </p>
+					</div>
+					<div id="panel" style="margin: auto;" class="fragment fade-up">
+						<div id="left">
+							<p style="font-size:.7em;">
+								<strong>2018</strong> Thermodynamic simulation of phase shifting materials with Position Based Dynamics and SPH </p>
+						</div>
+						<div id="rigth">
+							<p style="font-size:.7em;">
+								<b> VILLA SALAZAR </b>; TICONA, J ; REIS, J; MACIEL, A
+
+							</p>
+						</div>
+				</section>
 			</section>
 
 
-			<section data-background-transition="zoom" data-background-image="https://posgrado.uam.edu.ni/wp-content/uploads/2017/09/QuittingWeb.jpg">
+			<section data-background-transition="zoom" data-background-image="../images/research.jpg">
 
 				<section>
 					<h1>¿ Investigar ?</h1>
 				</section>
 
 				<section>
-				
+					<ul>
+						<li class="fragment fade-up">Solo si quiero ser profesor (?)</li>
+						<li class="fragment fade-up">Que tan dificil es (?)</li>
+						<li class="fragment fade-up">Es la mejor opcion (?)</li>
+						<li class="fragment fade-up">¡Generar Conocimiento!</li>
+					  </ul>
+					  
+					  
 				</section>
 			</section>
-			<section data-background-transition="zoom" data-background-image="http://rodinia.com.br/wp-content/uploads/2017/04/Mapas_Mapa-mundi-Globetrotter.jpeg">
-				
+			<section data-background-transition="zoom" data-background-image="../images/travel.jpeg">
+
 				<section>
-				<h1>¿ Salir del pais ?</h1>
+					<h1>¿ Salir del pais ?</h1>
 				</section>
-				
+
 				<section>
-				
+					<ul>
+						<li class="fragment fade-up">Estilo de vida </li>
+						<li class="fragment fade-up">Idioma</li>
+						<li class="fragment fade-up">Viable ?</li>
+					  </ul>
 				</section>
 			</section>
 
@@ -235,27 +288,27 @@
 
 
 
+			</div>
 		</div>
-	</div>
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
-	<script>
-		Reveal.initialize({
-			transition: 'slide',
-			width: 960 * 1.2,
-			height: 700 * 1,
-			history: true,
+		<script>
+			Reveal.initialize({
+				transition: 'slide',
+				width: 960 * 1.2,
+				height: 700 * 1,
+				history: true,
 
-			dependencies: [
-				{ src: 'plugin/markdown/marked.js' },
-				{ src: 'plugin/markdown/markdown.js' },
-				{ src: 'plugin/notes/notes.js', async: true },
-				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
-			]
-		});
-	</script>
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
 </body>
 
 </html>
