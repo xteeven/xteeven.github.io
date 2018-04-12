@@ -25,11 +25,11 @@
 
    - Other Protections:
 
-| Ex code | Description      | Standar        | Zone   | Use                           |
-| ------- | ---------------- | -------------- | ------ | ----------------------------- |
-| d       | Flameproof       | IEC/EN 60079-1 | 1      | electronics, lighting, motors |
-| q       | Sand Filled      | IEC/EN 60079-5 | 2 \| 1 | electronics, telephones       |
-| n       | Non Incendive    | IEC/EN 60079-6 | 2      | electronics, equipment        |
+| Ex code | Description   | Standar        | Zone   | Use                           |
+| ------- | ------------- | -------------- | ------ | ----------------------------- |
+| d       | Flameproof    | IEC/EN 60079-1 | 1      | electronics, lighting, motors |
+| q       | Sand Filled   | IEC/EN 60079-5 | 2 \| 1 | electronics, telephones       |
+| n       | Non Incendive | IEC/EN 60079-6 | 2      | electronics, equipment        |
 
 - The types of protection are subdivided into several sub classes, linked to EPL (EQUIPMENT PROTECTION LEVEL): ma and mb, px, py and pz, ia, ib and ic. The a subdivisions have the most stringent safety requirements, taking into account more the one independent component faults simultaneously.
 
