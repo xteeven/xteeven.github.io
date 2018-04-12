@@ -21,3 +21,6 @@ so I commented that lines and it worked. The error in that example comes from "h
  5. It works
 
 Calibration example shows an similar error but with calibration.obj file. #Trying to fix
+
+# Ultrahaptics paper fast track
+#### Keywords found: Ultrahaptics, Airborne, Touch, Textures, Mid-air Haptics, Ultrasound, Haptic display
