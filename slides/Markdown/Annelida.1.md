@@ -70,7 +70,7 @@ On progress
 7. ~~arista (Consult catalog goarista)~~
 8. ~~daisyData~~
 9. ~~moxa~~ (sao paulo)
-    - ATEX Panel. 19" intel i73555LE 2.5Gz
+    - ATEX Panel. 19" intel i7 3555LE 2.5Gz
 10. ~~Ecom~~
     - Zone 2 Pad-Ex 01 D2 11.6" Windows
 
