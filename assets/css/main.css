@@ -18,6 +18,14 @@
 		vertical-align: baseline;
 	}
 
+	iframe{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+
+	}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1601,4 +1609,12 @@
 
 		body.is-loading #footer {
 			opacity: 0;
+		}
+
+		.videocontainer {
+			padding-bottom: 56.25%;
+			height: 0;
+			overflow: hidden;
+			position: relative;
+			margin-bottom: 2em;
 		}
