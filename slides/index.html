@@ -1,59 +1,103 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="theme-color" content="#1e2327">
-		<title>Slides</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="theme-color" content="#1e2327">
+	<title>Slides</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+	<!-- Side menue -->
+	<link rel="stylesheet" href="../assets/css/meny.css">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+
+
+</head>
+
+<body>
+	<div class="meny">
+		<a href="../#" class="button" >Back to home</a>
+
+	</div>
 		<div class="reveal">
 			<div class="slides">
-				<img style="position:absolute; top:80%; left:80%" src="../images/marca-negativa.png" width="15%">
 				<section>
-						<h2>Slides</h2>
-						<ul>
-							<li><a href="meeting26.html">26/02/2018 Meeting</a> <br>
-							<object data="meeting26.html"></object></li>
-							<li>
-							<a href="meeting05.html">05/03/2018 Meeting</a> <br>
-							<object data="meeting05.html"></object></li>
-						</ul>
-				</section>	
+					<h2>Blank page :(</h2>
+				</section>
 			</div>
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script src="../assets/js/meny.js"></script>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			transition: 'zoom',
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+	<script>
+		var meny = Meny.create({
+			// The element that will be animated in from off screen
+			menuElement: document.querySelector('.meny'),
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				transition: 'zoom',
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+			// The contents that gets pushed aside while Meny is active
+			contentsElement: document.querySelector('.reveal'),
+
+			// The alignment of the menu (top/right/bottom/left)
+			position: 'left',
+
+			// The height of the menu (when using top/bottom position)
+			height: 200,
+
+			// The width of the menu (when using left/right position)
+			width: 260,
+
+			// The angle at which the contents will rotate to.
+			angle: 30,
+
+			// The mouse distance from menu position which can trigger menu to open.
+			threshold: 40,
+
+			// Width(in px) of the thin line you see on screen when menu is in closed position.
+			overlap: 6,
+
+			// The total time taken by menu animation.
+			transitionDuration: '0.5s',
+
+			// Transition style for menu animations
+			transitionEasing: 'ease',
+
+			// Gradient overlay for the contents
+			gradient: 'rgba(0,0,0,0.20) 0%, rgba(0,0,0,0.65) 100%)',
+
+			// Use mouse movement to automatically open/close
+			mouse: true,
+
+			// Use touch swipe events to open/close
+			touch: true
+		});
+	</script>
+</body>
+
 </html>
