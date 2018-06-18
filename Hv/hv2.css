@@ -91,7 +91,7 @@ section {
 
 /* We need to minimize the use of code, so we will be using roots...this is in the works */
 :root {
-  --highlight: #cf1d05;
+  //--highlight: #cf1d05;
   --header-font: "Gudea", Helvetica, Arial, sans-serif;
   --content-font: "Lato", Helvetica, Arial, sans-serif;
 }
@@ -179,9 +179,7 @@ a {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.breakFastBurrito:hover {
-  box-shadow: 0 14px 28px rgba(255, 43, 43, 0.349), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
+
 
 #headshot {
   width: 12.5%;
