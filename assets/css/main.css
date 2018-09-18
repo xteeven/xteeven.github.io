@@ -1067,6 +1067,7 @@
 		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
 		position: fixed;
+		
 		top: 0;
 		left: 0;
 		width: 100%;

@@ -7,12 +7,12 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? '../../slides/css/print/pdf.css' : '../../slidescss/print/paper.css';
-			document.getElementsByTagName( 'body' )[0].appendChild( link );
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../slides/css/print/pdf.css' : '../../slides/css/print/paper.css';
+			document.getElementsByTagName( '#print' )[0].appendChild( link );
 		</script>
   </head>
 <body>
-  <div id="drag" class="cv instaFade breakFastBurrito">
+  <div id="print" class="cv instaFade breakFastBurrito">
     <div class="mainDetails">
       <div id="headshot" class="quickFade">
 
@@ -165,7 +165,7 @@
                 <h2>Physical Interface Designer</h2>
                 <h3>PETROBRAS - Porto Alegre-Brazil</h3>
                 <p class="subDetails">2017 - Present</p>
-                <p> Harware Prototyping | User Ergonomy | Explosive Ambient Design</p>
+                <p> Hardware Prototyping | User Ergonomy | Explosive Ambient Design</p>
               </article>
 
           <article>
@@ -176,10 +176,10 @@
           </article>
           
           <article>
-              <h2>Interface Designer & Harware Integrator</h2>
+              <h2>Interface Designer & Hardware Integrator</h2>
               <h3>PITMMAM - Medellin-Colombia</h3>
               <p class="subDetails">2015</p>
-              <p> Harware Prototyping | Interface Planning | Interation Design | Wireless Comunications</p>
+              <p> Hardware Prototyping | Interface Planning | Interation Design | Wireless Comunications</p>
             </article>
 
             <article>
@@ -286,7 +286,9 @@
   </div>
 
   <script type="text/javascript">
-
+    $(function() {
+      $("#drag").draggable();
+    });
   </script>
 
 </body>
