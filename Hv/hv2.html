@@ -1,20 +1,19 @@
 <html>
 
 <head>
-  <title>Steeven Villa - Curriculum</title>
-  <link rel="stylesheet" type="text/css" href="hv2.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script>
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = window.location.search.match(/print-pdf/gi) ? '../../slides/css/print/pdf.css' : '../../slidescss/print/paper.css';
-    document.getElementsByTagName('body')[0].appendChild(link);
-  </script>
-</head>
-
+    <title>Steeven Villa - Curriculum</title>
+    <link rel="stylesheet" type="text/css" href="hv2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../slides/css/print/pdf.css' : '../../slides/css/print/paper.css';
+			document.getElementsByTagName( '#print' )[0].appendChild( link );
+		</script>
+  </head>
 <body>
-  <div id="drag" class="cv instaFade breakFastBurrito">
+  <div id="print" class="cv instaFade breakFastBurrito">
     <div class="mainDetails">
       <div id="headshot" class="quickFade">
 
@@ -372,7 +371,9 @@
   </div>
 
   <script type="text/javascript">
-
+    $(function() {
+      $("#drag").draggable();
+    });
   </script>
 
 </body>

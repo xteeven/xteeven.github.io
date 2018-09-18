@@ -86,7 +86,7 @@ body {
 }
 
 .col-md-4:hover {
-  background: #f7f7f7;
+  background: #f7f7f7e1;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
