@@ -1621,3 +1621,12 @@ transform:  translateZ(-90px) rotateX(65deg) }
   width:50%;
 }
 
+#panel {
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: #fff;
+  padding: 20px;
+}
+
+t {
+  font-size:2.4em;
+}

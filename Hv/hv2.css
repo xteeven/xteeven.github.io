@@ -169,6 +169,8 @@ a {
   font-family: "Gudea", Helvetica, arial, sans-serif;
 }
 
+
+
 #mainArea {
   padding: 0 40px;
 }
@@ -263,6 +265,12 @@ section:last-child {
 .sectionContent h2 {
   font-family: "Gudea", helvetica, arial, sans-serif;
   font-size: 1.5em;
+  margin-bottom: -2px;
+}
+
+.sectionContent h4 {
+  font-family: "Gudea", helvetica, arial, sans-serif;
+  font-size: 1.2em;
   margin-bottom: -2px;
 }
 
