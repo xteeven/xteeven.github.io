@@ -32,7 +32,7 @@
 
 			<section>
 
-				<img src="../images/logocis.fw.png" style="height: 7em; width: auto;">
+				<img src="../images/logoo.fw.png" style="height: 7em; width: auto;">
 				<!--<h2 style="font-size:2.5em;"> <b>Ambientes inmersivos</b>
 				</h2>
 				<span style="font-size:2em;">¿cómo hacer real lo virtual?</span>-->
@@ -50,8 +50,14 @@
 
 
 			<section>
-				<div style="font-size:2.0em;">¿cómo hacer <span style="font-size:1.4em;color: red"><strong>real</strong></span> lo
-					<span style="font-size:1.4em; color: red"><b>virtual</b></span>?</div>
+				<section>
+					<div style="font-size:2.0em;">¿cómo hacer <span style="font-size:1.4em;color: red"><strong>real</strong></span> lo
+						<span style="font-size:1.4em; color: red"><b>virtual</b></span>?</div>
+				</section>
+
+				<section>
+					<img src="../images/logocis.fw.png" style="height: 7em; width: auto;">
+				</section>
 			</section>
 
 			<section>
@@ -59,8 +65,18 @@
 					<div style="font-size:2.5em;">Modelando el <span style="color: red"><strong>Mundo real</strong></span></div>
 				</section>
 				<section>
-					Animacion
+					<ul>
+						<li class="fragment fade-up">Fenomenos Naturales</li>
+						<li class="fragment fade-up">Fisica vs Visualizacion</li>
+					</ul>
 				</section>
+				<section>
+					<iframe class="stretch" id="chart-frame-1" data-chart></iframe>
+				</section>
+				<section>
+					<div style="font-size:2.5em;">Plausibilidad</div>
+				</section>
+
 				<section data-background-color="#000" data-background-video-muted="" data-background-video="Video/animation.mp4"
 				 data-background-video-loop="">
 				</section>
@@ -73,23 +89,24 @@
 					</div>
 				</section>
 
-				<section>
+				<section data-background-color="#ffffff" data-background-video-muted="" data-background-video="Video/PBD.mp4"
+				data-background-video-loop="">
 					<div id="panel" style="margin: auto;" class="fragment fade-up">
 						<div id="left">
 							<p style="font-size:.7em;">
-								<strong>2018</strong> Thermodynamic simulation of phase shifting materials with Position Based Dynamics and SPH
+								<strong>2018</strong> Heat-based bidirectional phase shifting simulation using position-based dynamics
 							</p>
 						</div>
 						<div id="rigth">
 							<p style="font-size:.7em;">
-								<b> VILLA SALAZAR </b>; TICONA, J ; REIS, J; MACIEL, A
+								<b> VILLA SALAZAR </b>; TICONA, J ; TORCHELSEN, R;NEDEL, L; MACIEL, A
 							</p>
 						</div>
 					</div>
 				</section>
 
 				<section>
-					Real Time Raycasting
+					Real Time RayTracing
 				</section>
 			</section>
 
@@ -117,8 +134,9 @@
 					<img src="../images/twoway1.jpg" style="height: 7em; width: auto;" class="fragment fade in">
 					<img src="../images/twoway2.jpg" style="height: 7em; width: auto;" class="fragment current-visible">
 				</section>
-				<section>
-					Video ULTRAMOTION
+				<section data-background-color="#ffffff" data-background-video-muted="" data-background-video="Video/UHvideo.mp4"
+				data-background-video-loop="">
+			
 				</section>
 				<section data-background-video="Video/tool.mp4" data-background-video-loop data-background-video-muted="">
 					<div id="panel" class="fragment fade-up" style="margin: auto;">
@@ -180,12 +198,56 @@
 			height: 700 * 1,
 			history: true,
 
+			// Chart.min.js
+
 			dependencies: [
 				{ src: 'plugin/markdown/marked.js' },
 				{ src: 'plugin/markdown/markdown.js' },
 				{ src: 'plugin/notes/notes.js', async: true },
-				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
-			]
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/chartjs/Chart.min.js' },
+				// the plugin
+				{ src: 'plugin/chartjs/charted.js' }
+			],
+			chart: {
+				// Taken from chartjs documentation
+
+				items: [
+					{
+						selector: "#chart-frame-1",
+						type: "bar",
+						data: {
+							labels: ["Exacto", "Impreciso", "Plausible"],
+							datasets: [
+								{
+									label: "Fidelidad",
+									fillColor: "rgba(250,0,0,0.6)",
+									strokeColor: "rgba(220,220,220,0.8)",
+									highlightFill: "rgba(220,220,220,0.75)",
+									highlightStroke: "rgba(220,220,220,1)",
+									data: [25, 80, 45]
+								},
+								{
+									label: "Velocidad",
+									fillColor: "rgba(100,100,100,0.6)",
+									strokeColor: "rgba(220,220,220,0.8)",
+									highlightFill: "rgba(220,220,220,0.75)",
+									highlightStroke: "rgba(220,220,220,1)",
+									data: [75, 20, 55]
+								}
+							]
+						},
+						options: {
+							responsive: true,
+							multiTooltipTemplate: "<%= datasetLabel %>: <%= value %>",
+							legend: {
+								display: true,
+								position: 'top'
+							}
+						}
+					}
+				]
+			}
 		});
 	</script>
 </body>
