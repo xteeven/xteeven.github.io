@@ -1604,6 +1604,17 @@ transform:  translateZ(-90px) rotateX(65deg) }
     content:url("../../images/Logo-ITM.png");
     }
 
+    .reveal.has-dark-background .logo.inria{
+      left: 8px;
+      content:url("../../images/inr_logo_eng_inverse.png");
+      }
+    
+      .reveal.has-light-background .logo.inria{
+        left: 8px;
+        content:url("../../images/inr_logo_eng_rouge.png");
+        }
+
+
  #left {
   left:-8.33%;
   text-align: center;

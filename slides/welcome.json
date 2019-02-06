@@ -1,0 +1,181 @@
+{
+    "timeline": {
+        "headline": "Stiffnes And Friction Paper review",
+        "type": "default",
+        "startDate": "2017",
+        "text": "<p>Selection of the most relevant primary studies</p>",
+        "asset": {
+            "media": "",
+            "credit": "",
+            "caption": ""
+        },
+        "date": [
+           
+            {
+                "startDate": "2016,12",
+                "headline": "A. Girard et al.",
+                "text": "<p> Haptip:  Displaying haptic shear forces  at the fingertips for multi-finger  interaction in virtual environments. </p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: Yes &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: 2 DC Motors - Tactor</p> <p>Environment: VR</p>",
+                "asset": {
+                    "media": "timelineImages/Girard.jpg",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2016,04",
+                "headline": "C. Pacchierotti et al.",
+                "text": "<p> The hRing:  a wearable haptic device to   avoid occlusions in hand tracking. </p> <p>Wearable: Yes &emsp; Fingertip: Free</p><p>Friction: Yes &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: 2 Servos - Belts</p> <p>Environment: VR</p>",
+                "asset": {
+                    "media": "timelineImages/F1.PNG",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2017,04",
+                "headline": "M. Maisto et al.",
+                "text": "<p> Evaluation of wearable haptic systems  for the fingers in augmented  reality applications </p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: Yes &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: 3 Servos - Revolut and 2 Servos - Belts</p> <p>Environment: AR</p>",
+                "asset": {
+                    "media": "timelineImages/maisto.jpg",
+                    "credit": "",
+                    "caption": ""
+                }
+            }
+
+            ,
+            {
+                "startDate": "2017,05",
+                "headline": "H. Culbertson and K. Kuchenbecker.",
+                "text": "<p> Ungrounded haptic augmented reality  system for displaying roughness and friction. </p> <p>Wearable: Ungrounded &emsp; Fingertip: Not Free</p><p>Friction: Yes &emsp;&emsp; Stiffness: No</p> <p>Actuator: Proxy - Stylus</p> <p>Environment: Desktop</p>",
+                "asset": {
+                    "media": "timelineImages/cubertson.png",
+                    "credit": "",
+                    "caption": ""
+                }
+            }
+            ,
+            {
+                "startDate": "2018, 02",
+                "headline": "De Tinguy et al.",
+                "text": "<p> Enhancing the Stiffness Perception of   Tangible Objects in Mixed Reality Using Wearable Haptics. </p> <p>Wearable: Yes &emsp; Fingertip: Free</p><p>Friction: Yes &emsp;&emsp; Stiffness: Yes</p> <p>Actuator:2 Servos - Belts</p> <p>Environment: AR + Tangible</p>",
+                "asset": {
+                    "media": "timelineImages/Tinguy.jpg",
+                    "credit": "",
+                    "caption": "",
+                    "group":"1"
+                }
+            },
+            {
+                "startDate": "2018, 10",
+                "headline": "Meli, L. et al.",
+                "text": "<p> Combining Wearable Finger Haptics and Augmented Reality:   User Evaluation Using an External Camera and   the Microsoft HoloLens.  </p> <p>Wearable: Yes &emsp; Fingertip: Free</p><p>Friction: Yes &emsp;&emsp; Stiffness: Yes</p> <p>Actuator:3 Servos - Revolut and 2 Servos - Belts</p> <p>Environment: AR</p>",
+                "asset": {
+                    "media": "timelineImages/meli.jpg",
+                    "credit": "",
+                    "caption": "",
+                    "group":"1"
+                }
+            },
+            {
+                "startDate": "2018, 03",
+                "headline": "Yem, V. et al.",
+                "text": "<p> Effect of Electrical Stimulation Haptic Feedback on  Perceptions of Softness-Hardness and Stickiness while Touching a Virtual Object.  </p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: No &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: Electrodes </p> <p>Environment: VR + Leap Motion</p>",
+                "asset": {
+                    "media": "timelineImages/yem.jpg",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2017, 06",
+                "headline": "Zubrycki, I. et al.",
+                "text": "<p>Novel Haptic Device Using Jamming Principle for Providing   Kinaesthetic Feedback in Glove-Based Control Interface. </p> <p>Wearable: Partially &emsp; Fingertip: Not Free</p><p>Friction: No &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: Jam Tubes </p> <p>Environment: VR</p>",
+                "asset": {
+                    "media": "timelineImages/jamming.png",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2017, 09",
+                "headline": "Maereg, A. T. et al.",
+                "text": "<p> Wearable Vibrotactile Haptic Device for Stiffness   Discrimination during Virtual Interactions </p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: No &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: ERM Vibrotactile Motors</p> <p>Environment: VR</p>",
+                "asset": {
+                    "media": "timelineImages/mereg.jpg",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2018, 08",
+                "headline": "Hosseini, M. et al.",
+                "text": "<p> ExoTen-Glove :   A Force-Feedback Haptic Glove Based on   Twisted String Actuation System </p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: No &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: Exoesqueleton </p> <p>Environment: VR</p>",
+                "asset": {
+                    "media": "timelineImages/hosseini.jpg",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2018, 12",
+                "headline": "Park, J. et al.",
+                "text": "<p> Effect of Cutaneous Feedback on the Perceived Hardness of a Virtual Object. </p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: No &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: 1 Servo - FSR Sensor </p> <p>Environment: VR</p>",
+                "asset": {
+                    "media": "timelineImages/Jaeyoung.jpg",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2017, 9",
+                "headline": "Sorgini, F. et al.",
+                "text": "<p> Encapsulation of piezoelectric transducers for sensory augmentation and substitution with wearable haptic devices. </p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: No &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: Piezoelectrics - Glove </p> <p>Environment: Desktop</p>",
+                "asset": {
+                    "media": "timelineImages/Sorgini.jpg",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2017, 5",
+                "headline": "Schorr, S. et al.",
+                "text": "<p> Fingertip Tactile Devices for Virtual Object Manipulation and Exploration.</p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: Yes &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: 3 Dof  Delta mechanism. Faulhaber 0615 DC motors </p> <p>Environment: VR</p>",
+                "asset": {
+                    "media": "timelineImages/Samuel.jpg",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2018, 6",
+                "headline": "Yem, V., & Kajimoto, H. ",
+                "text": "<p>A Fingertip Glove with Motor Rotational Acceleration Enables Stiffness Perception When Grasping a Virtual Object.</p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: No &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: Titanium mount - DC Motor Maxon, 118396 </p> <p>Environment: VR</p>",
+                "asset": {
+                    "media": "timelineImages/Vibol Yem.gif",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2018, 10",
+                "headline": "Hinchet, R. et al.",
+                "text": "<p> DextrES: Wearable Haptic Feedback for Grasping in VR via a Thin Form-Factor Electrostatic Brake. </p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: No &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: electrostatic brake </p> <p>Environment: VR</p>",
+                "asset": {
+                    "media": "timelineImages/Ronan.jpg",
+                    "credit": "",
+                    "caption": ""
+                }
+            },
+            {
+                "startDate": "2018, 6",
+                "headline": "Tzemanaki, A. et al.",
+                "text": "<p> Design of a Wearable Fingertip Haptic Device for Remote Palpation: Characterisation and Interface with a Virtual Environment. </p> <p>Wearable: Yes &emsp; Fingertip: Not Free</p><p>Friction: No &emsp;&emsp; Stiffness: Yes</p> <p>Actuator: 1 Servo - Gears </p> <p>Environment: VR</p>",
+                "asset": {
+                    "media": "timelineImages/Tzemanaki.jpg",
+                    "credit": "",
+                    "caption": ""
+                }
+            }
+        ]
+    }
+}

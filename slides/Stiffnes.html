@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Stiffness Report</title>
+    <script src="reveal.js-plugins/spreadsheet/ruleJS.all.full.min.js"></script>
+    <link rel="stylesheet" href="reveal.js-plugins/spreadsheet/spreadsheet.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <img class="logo">
+            <!--<img class="logo itm">-->
+            <img class="logo inria">
+            <!-- Initial Slide -->
+
+            <section>
+
+                <h2 style="text-align: right">Stiffness/Friction Perception:</h2>
+                <h4 style="text-align: right">Review</h4>
+                <strong style="color:rgb(221, 0, 0);font-size: 1.2em">Steeven Villa</strong>
+
+            </section>
+            <!-- Body -->
+            <section data-background-color="#000">
+                <h2>Metodology</h2>
+
+                <section data-background-color="#000">
+                    <h3>What are the review's objectives?</h3>
+                    <pre><code>
+	increasing/decreasing the perception of stiffness in touching objects
+	increasing/decreasing the perception of friction in touching objects
+				</code></pre>
+                </section data-background-color="#000">
+
+                <section data-markdown data-background-color="#000">
+                    <textarea data-template>
+					<h3>Sources searched to identify primary studies</h3>
+	- scienceresearch: 
+		 - ieeexplore
+		 - ncbi
+	- academicMicrosoft:
+		- springer 
+	- semanticscholar:
+		- acm 
+		- sciencedirect 
+					</textarea>
+                </section>
+                <section data-background-color="#000">
+
+                    <h3>What were the inclusion/exclusion criteria and how were they applied?</h3>
+
+                    <pre><code>q = (stiffness OR friction OR hardness) AND (perception OR feeling) AND ( touch OR touching OR objects OR Bodies ) 
+						- q AND haptic 
+						- q AND device 
+						- q AND Wearable 
+						- New key Terms: Fingertip</code></pre>
+                    <p class="fragment">23 Relevant Documents</p>
+                </section>
+                <section data-background-color="#000">
+                    <h3>What criteria were used to assess the quality of primary studies?</h3>
+                    <pre><code>
+- Year: After 2016
+- Best Match
+- Bare finger, Direct touch	
+					</code></pre>
+                </section>
+            </section>
+
+            <section style="padding-top: 0em">
+
+                <div style="padding-top: 0em" data-timeline="welcome.json"></div>
+            </section>
+            <section>
+                <section>
+                    <h3>Contextual Analisys</h3>
+                    <p style="font-size: 0.5em; color: gray;margin-top: -1.5em"> Similarities and dissimilarities of our
+                        current project regarding the avalaible primary studies</p>
+                    <div id="left" class="fragment">
+                        <h5>Common points</h5>
+                        <ul>
+                            <li>hRing</li>
+                            <li>Falcon</li>
+                            <li>VR/AR Environment</li>
+                            <li>Passive Haptics</li>
+                            <li>External Tracking</li>
+                        </ul>
+                    </div>
+                    <div id="right" class="fragment">
+                        <h5>differences </h5>
+                        <ul>
+                            <li>Decreasing Stiffness</li>
+                        </ul>
+                        <p>--Tentative--</p>
+                        <ul>
+                            <li>Mid-Air Haptics </li>
+                            <li>XMid-Air Haptics</li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <h3>Current Context</h3>
+                    <ul>
+                        <li>Received hardware and code from Xavier</li>
+
+                        <li>Controling Servos <ul>
+                                <li>Wired from Arduino: Done</li>
+                                <li>Wireless from Arduino: Done (missing some packages)</li>
+                                <li>C#: Done</li>
+                            </ul>
+                        </li>
+                        <li>Trying to make falcon work: <ul>
+                                <li>H3DAPI</li>
+                                <li>CHAI3D</li>
+                                <li>UNITY PLUGIN</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Next Steps</h3>
+                    <ul>
+                        <li>Get hRing Working (Control Servos from Unity)</li>
+                        <li>Configure Unity Environment</li>
+                        <li>Get Falcon Working</li>
+                    </ul>
+                </section>
+                <section>
+                    <p>Paper sugestions ?</p>
+                </section>
+            </section>
+            <!-- Ending -->
+            <section>
+                <section>
+                    <h1>End . . . </h1>
+                </section>
+
+                <section data-autoslide="400">
+                    <div style="font-size:1.5em;">Steeven <b>Villa</b> <br></div>
+                    <div class="fragment fade-up" style="margin: auto;">
+                        <div id="left">
+                            <p style="font-size:2.2em;">
+                                <strong>steeven<span style="color: red">v</span>.com</strong></p>
+                        </div>
+                        <div id="rigth" style="text-align: left;">
+                            <div class="fragment fade-up" style="font-size:1.5em;">/#work<br></div>
+                            <div class="fragment fade-up" style="font-size:1.5em;">/#research<br></div>
+                        </div>
+                    </div>
+                    <img src="../images/qr.png" style="height: 10em; width: auto;" class="fragment current-visible">
+                </section>
+            </section>
+
+
+        </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+        Reveal.initialize({
+            transition: 'slide',
+            width: 960 * 1.2,
+            height: 700 * 1,
+            history: true,
+
+            // Chart.min.js
+
+            dependencies: [{
+                src: 'plugin/markdown/marked.js'
+            }, {
+                src: 'plugin/reveal-timeline.js'
+            }, {
+                src: 'plugin/markdown/markdown.js'
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }, {
+                src: 'plugin/chartjs/Chart.min.js'
+            },
+            // the plugin
+            {
+                src: 'plugin/chartjs/charted.js'
+            }
+            ],
+            chart: {
+                // Taken from chartjs documentation
+
+                items: [{
+                    selector: "#chart-frame-1",
+                    type: "bar",
+                    data: {
+                        labels: ["Impreciso", "Exacto", "Plausible"],
+                        datasets: [{
+                            label: "Fidelidad",
+                            fillColor: "rgba(250,0,0,0.6)",
+                            strokeColor: "rgba(220,220,220,0.8)",
+                            highlightFill: "rgba(220,220,220,0.75)",
+                            highlightStroke: "rgba(220,220,220,1)",
+                            data: [25, 80, 45]
+                        }, {
+                            label: "Velocidad",
+                            fillColor: "rgba(100,100,100,0.6)",
+                            strokeColor: "rgba(220,220,220,0.8)",
+                            highlightFill: "rgba(220,220,220,0.75)",
+                            highlightStroke: "rgba(220,220,220,1)",
+                            data: [75, 20, 55]
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        multiTooltipTemplate: "<%= datasetLabel %>: <%= value %>",
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        }
+                    }
+                }]
+            }
+        });
+    </script>
+</body>
+
+</html>
