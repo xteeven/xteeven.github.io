@@ -57,7 +57,7 @@
             {
                 "startDate": "2018, 02",
                 "headline": "De Tinguy et al.",
-                "text": "<p> Enhancing the Stiffness Perception of   Tangible Objects in Mixed Reality Using Wearable Haptics. </p> <p>Wearable: Yes &emsp; Fingertip: Free</p><p>Friction: Yes &emsp;&emsp; Stiffness: Yes</p> <p>Actuator:2 Servos - Belts</p> <p>Environment: AR + Tangible</p>",
+                "text": "<p> Enhancing the Stiffness Perception of   Tangible Objects in Mixed Reality Using Wearable Haptics. </p> <p>Wearable: Yes &emsp; Fingertip: Free</p><p>Friction: No &emsp;&emsp; Stiffness: Yes</p> <p>Actuator:2 Servos - Belts</p> <p>Environment: AR + Tangible</p>",
                 "asset": {
                     "media": "timelineImages/Tinguy.jpg",
                     "credit": "",
