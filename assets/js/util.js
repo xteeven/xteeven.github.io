@@ -643,7 +643,7 @@ window.onload = function () {
 	document.body.appendChild(css);
 };
 
-/*
+//*
 (function(){
 
 	var slideshow = document.getElementById('slideshow'),
@@ -670,7 +670,7 @@ window.onload = function () {
   
 	timer = setInterval(function(){
 	  next();
-	}, 5000);
+	}, 15000);
   
   })();
-*/
+//*/

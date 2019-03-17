@@ -1626,7 +1626,7 @@
 			font-size:2em;
 			
 		  }
-		  .profile-pic{
+		  #profile-pic{
 
 			width: 100px;
 			height: auto;
@@ -1637,36 +1637,37 @@
 		}
 
 #slideshow{
-  height: 90px;
-  margin: auto;
-  max-width: 200px;
+	width: auto;
+	height: 100px;
+  max-width: 500px;
   position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto ;
-
+  margin-top:0em;
+  box-shadow: 0 8px 40px rgba(0,0,0,.4);
 }
 
 #slideshow img{
   height: auto;
   opacity: 0;
-  left: 0;
+  left: -50px;
+  top: 0;
   position: absolute;
   z-index: 1;
   top: 0;
-  width: 200px;
+  width: 100px;
+  border-radius: 50%;
   -webkit-transition: 1s all;
   -webkit-transform: scale(1);
-  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
+
   -webkit-backface-visibility: hidden;
 }
 
 #slideshow .is-active{
   opacity: 1;
-  left: 0;
+  left: -50px;
   top: 0;
   z-index: 2;
+  border-radius: 50%;
   -webkit-transition: 1s all;
-  -webkit-transform: scale(.8);
+  -webkit-transform: scale(0.9);
   -webkit-backface-visibility: hidden;
 }
