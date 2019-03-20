@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <title>Vr</title>
+  <script src="assets/js/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene vr-mode-ui="enabled: false">
+    <a-assets>
+      <video muted id="3DUI" autoplay loop="true" src="slides/Video/3DAthlon.mp4">
+        <a-asset-item id="room-obj" src="obj1/EmptyRoom(OBJ).obj"></a-asset-item>
+        <a-asset-item id="room-mtl" src="obj1/EmptyRoom(OBJ).mtl"></a-asset-item>
+        <a-asset-item id="tele-obj" src="obj/14022_Teleportation_Room_v2_L1.obj"></a-asset-item>
+        <a-asset-item id="tele-mtl" src="obj/14022_Teleportation_Room_v2_L1.mtl"></a-asset-item>
+    </a-assets>
+    <a-entity text="value: Steeven Scene; align: center" scale="10 10 10" position="-0.75 1.46 -2" visible="">
+    </a-entity>
+
+    <a-entity obj-model="obj: #tele-obj; mtl: #tele-mtl" scale="0.05 0.05 0.025" position="0 0 0"
+      rotation="-89.0 17.6 -76"></a-entity>
+
+    <a-sky color="#ECECEC"></a-sky>
+
+  </a-scene>
+</body>
+
+</html>
