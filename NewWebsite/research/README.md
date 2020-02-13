@@ -11,7 +11,7 @@ Come to my office :)
 - Self-Awareness
 >LMU Munich
 :::
-::: warning <Badge text="Ongoing" vertical="middle"/> Situational Awareness in Higly Automated Vehicles
+::: warning <Badge text="Ongoing" vertical="middle"/> Situational Awareness in Highly Automated Vehicles
 - Multisensory Integration
 - Haptic Support for SA
 >LMU Munich
