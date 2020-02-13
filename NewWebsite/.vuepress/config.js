@@ -9,8 +9,9 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About me', link: '/bio/' },
+      { text: 'Teaching', link: '/teaching/' },
       {
-        text: 'Research', items:
+        text: 'Research', link: '/research/', items:
           [{ text: 'Current Research', link: '/research/' },
           { text: 'Ms.C Research', link: '/research/#ms-c-research' },
           { text: 'Bs. Research', link: '/research/#bs-research' }
