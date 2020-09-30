@@ -1,5 +1,11 @@
 # Teaching
 
+## 2020/2021 Winter Semester
+
+#### MMI2 Mensch-Maschine-Interaktion 2
+
+#### Sketching with Hardware
+
 ## 2020 Summer Semester
 
 #### Sketching with Hardware

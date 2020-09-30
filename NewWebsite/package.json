@@ -9,12 +9,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1"
+    "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1",
+    "watchpack": "^1.6.1"
   },
   "dependencies": {
     "vue-tweet-embed": "^2.3.0",
     "vue-twitter": "^0.1.0",
     "vue-typed-js": "^0.1.2",
     "vuepress-plugin-nprogress": "^1.1.1"
+  },
+  "resolutions": {
+    "watchpack": "1.6.1"
   }
 }

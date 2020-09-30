@@ -10,7 +10,7 @@ features:
   details: |+ 
         Haptics |
         Human Augmentation |
-        Sensory Substitution
+        Motor Learnin | Persuasive Computing
 - title: Research Assistant
   details: Institut für Informatik | Ludwig-Maximilians-Universität München | Munich, Germany
 - title: Office Address

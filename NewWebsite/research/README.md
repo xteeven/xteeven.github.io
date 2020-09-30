@@ -3,18 +3,25 @@
 [//]: # (Todo: add timeline style)
 
 ### Master's and Bachelor's thesis topics:
-Come to my office :) 
+~~Come to my office :)~~ Write me an email :mask:
 
 ## Current reseach
-::: warning <Badge text="Ongoing" vertical="middle"/> Augmenting Humans Senses
-- Emotion Sharing
-- Self-Awareness
->LMU Munich
+
+::: warning <Badge text="Ongoing" vertical="middle"/> Human-Closed-Loop
+- Human-C-I as a control system to enhance human health and goals
 :::
-::: warning <Badge text="Ongoing" vertical="middle"/> Situational Awareness in Highly Automated Vehicles
+
+::: warning <Badge text="Ongoing" vertical="middle"/> Motor Learning
+- Wearable technologies to support digital dance and dance learning
+:::
+
+::: tip <Badge text="Ongoing" vertical="middle"/> Human Augmentation
+- Psycho-social aspects of human augmentation
+- Emotion Sharing
+:::
+::: tip  <Badge text="Past" vertical="middle"/> Situational Awareness in Highly Automated Vehicles
 - Multisensory Integration
 - Haptic Support for SA
->LMU Munich
 :::
 
 ## Ms.C research

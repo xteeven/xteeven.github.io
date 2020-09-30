@@ -1,7 +1,7 @@
 # Work Eperience
 
 ## HIVE LAB (Current)
-![LMU Munich](/images/LMULogo.png)
+![LMU Munich](/images/Static_hive.png)
 Modern technologies for health applications should preserve the quality of life of users and improve their well-being. Virtual and Augmented Reality (VR/AR) offer new possibilities for human-technology interaction through multimodal and immersive user experiences. The successful design and realisation of technical innovations always takes place here through context-sensitive embedding in the everyday life of the users.
 
 ## H-REALITY (2019)
