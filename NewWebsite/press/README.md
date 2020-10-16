@@ -5,7 +5,7 @@
 ::: tip Portuguese
 Estudantes da UFRGS vencem desafio de inovação no Japão
 [RDCTV](https://rdctv.com.br/variedades/estudantes-da-ufrgs-vencem-desafio-de-inovacao-no-japao/)
-[UFRGS](http://www.inf.ufrgs.br/site/noticia/alunos-do-inf-vencem-desafio-de-inovacao-no-japaocientifico/)
+[UFRGS](https://www.inf.ufrgs.br/site/noticia/alunos-do-inf-vencem-desafio-de-inovacao-no-japaocientifico/)
 :::
 
 ## Ultramotion
