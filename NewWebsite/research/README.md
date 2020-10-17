@@ -5,6 +5,9 @@
 ### Master's and Bachelor's thesis topics:
 ~~Come to my office :)~~ Write me an email :mask:
 
+<Projects/>
+
+
 ## Current reseach
 
 ::: warning <Badge text="Ongoing" vertical="middle"/> Human-Closed-Loop

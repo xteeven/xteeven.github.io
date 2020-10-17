@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ['vuepress-plugin-nprogress'],
   head: [
-    ['link', { rel: 'icon', href: 'images/VR.svg' }]
+    ['link', { rel: 'icon', href: '/images/VR.svg' }]
   ],
   title: 'Steeven Villa',
   description: 'HCI Researcher',
