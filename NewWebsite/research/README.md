@@ -3,10 +3,14 @@
 [//]: # (Todo: add timeline style)
 
 ### Master's and Bachelor's thesis topics:
-~~Come to my office :)~~ Write me an email :mask:
 
+--- 
+<p align="center">
 <Projects/>
+</p>
 
+
+If you are interested ~~Come to my office :)~~ send me an email or contact me via the MIMUC slack workspace :mask:
 
 ## Current reseach
 
