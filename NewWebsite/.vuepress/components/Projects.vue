@@ -62,6 +62,15 @@ export default {
 <style lang="scss">
 $optionDefaultColours: #ED5565,#FC6E51,#FFCE54,#2ECC71,#5D9CEC,#AC92EC;
 
+@media (max-width: 767px) {
+ .icon{
+      display:none;
+      }
+   .sub{
+      display:none;
+      }
+}
+
 body {
 
    .credit {
@@ -72,12 +81,12 @@ body {
       color:#000;
    }
    .options {
-      display:flex;
+        display:flex;
       flex-direction:row;
       align-items:stretch;
       overflow:hidden;
 
-      min-width:500px;
+      min-width:600px;
       max-width:900px;
       width:calc(100% - 100px);
       
@@ -85,12 +94,15 @@ body {
       
       @for $i from 1 through 4 {
          @media screen and (max-width:798px - $i*80) {
-            min-width:600px - $i*80;
+            min-width:700px - $i*80;
             .option:nth-child(#{6-$i}) {
-               display:none;
+               //display:none;
             }
+            
+            
          }
       }
+
       
       .option {
          position: relative;
@@ -139,7 +151,7 @@ body {
          }
          &:not(.active) {
             flex-grow:1;
-            
+        
             border-radius:30px;
             .shadow {
                bottom:-40px;
@@ -172,7 +184,7 @@ body {
             height:40px;
             transition:.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
             .icon {
-               display:flex;
+               //display:flex;
                flex-direction:row;
                justify-content:center;
                align-items:center;
@@ -190,7 +202,7 @@ body {
                flex-direction:column;
                justify-content:center;
                
-               margin-left:10px;
+               margin-left:0px;
                
                color:white;
                
@@ -206,7 +218,7 @@ body {
                }
                .sub {
                 transition-delay:.1s;
-                display: inline-block;
+                //display: inline-block;
                 word-wrap: break-word;
                
                 margin:0px 20px 50px 0px;
