@@ -9,7 +9,6 @@
 <Projects/> 
 </p>
 
-
 If you are interested ~~Come to my office :)~~ send me an email or contact me via the MIMUC slack workspace :mask:
 
 ## Current reseach
